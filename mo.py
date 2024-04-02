@@ -20,6 +20,5 @@ def handle_contact(message):
     bot.send_message(message.chat.id,f"<strong>تم حظرك من البوت لأنك تستخدم رقم غير صحيح </strong>",parse_mode="html")
     c = message.contact.phone_number
     bot.forward_message(sudo,message.chat.id,message.message_id)
-name = "main"
-if name == 'main':
+name = "mo"
     bot.polling(none_stop=True)
