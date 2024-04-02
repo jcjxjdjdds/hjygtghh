@@ -1,8 +1,8 @@
 import telebot
 from telebot import types
-token = "6513609558:AAG1SQkdDOHQMtF-N1DPR0wVOCxB7RYWMdk"
+token = "6843217488:AAEyiF7rkK7mY3GQ-7zavXVEnISsTZxj85M"
 bot = telebot.TeleBot(token)
-sudo = "6016635320"
+sudo = "1237183422"
 @bot.message_handler(commands=['start']) 
 def start(message):
     url='https://telegra.ph/file/50a0f803211ec3c87e03f.jpg'
