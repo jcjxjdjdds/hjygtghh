@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-token = "6551791083:AAH7-4-yzQTyAItSPcKUX70xfXlkfZeHgXY"
+token = "6998731849:AAH51YgSX7puViNnYNCWsPY3r_uz27Xtj6k"
 bot = telebot.TeleBot(token)
 sudo = "1247183422"
 @bot.message_handler(commands=['start']) 
